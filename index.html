@@ -11,6 +11,7 @@
 <script>
 let fullName = "Duong Thi Quynh Mai"; 
 let studentId = "27A4043315";
+let coursePeriod = "Công nghệ thông tin và kinh tế số";
 
 let nameParts = fullName.split(" ");
 let firstName = nameParts[nameParts.length - 1];
@@ -20,7 +21,6 @@ let middleNameInitial = nameParts[1][0];
 let email = firstName + lastNameInitial + middleNameInitial + "." + studentId.toLowerCase() + "@hvnh.edu.vn";
 email = email.toLowerCase();
 
-let coursePeriod = studentId.substring(0, 2);
 let faculty = studentId.substring(3,6);
 let lastFour = studentId.slice(-4);
 let sum = 0;
